@@ -3,7 +3,7 @@ export const items = [
         id: 1,
         title: '궁에서온',
         tag: ['team'],
-        img: './images/gungon.png',
+        img: './images/Gungon.png',
         url: '../../project1.html',
     },
     { id: 2, title: 'Lush', tag: ['team'], img: './images/lush.png', url: '../../project2.html' },
