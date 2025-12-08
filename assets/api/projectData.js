@@ -6,7 +6,7 @@ export const items = [
         img: './images/Gungon.png',
         url: '../../project1.html',
     },
-    { id: 2, title: 'Lush', tag: ['team'], img: './images/lush.png', url: '../../project2.html' },
+    { id: 2, title: 'Lush', tag: ['team'], img: './images/Lush.png', url: '../../project2.html' },
     {
         id: 3,
         title: 'Knotted',
