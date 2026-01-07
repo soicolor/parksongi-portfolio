@@ -578,16 +578,16 @@ html.lenis body {
 }
 .con4 .flip-card-back p {
     position: absolute;
-    top: 84%;
+    top: 85%;
     left: 50%;
-    transform: translateX(-48.5%);
+    transform: translateX(-49%);
     color: #333;
     width: 300px;
     font-weight: 400;
     font-family: 'Reenie Beanie', cursive;
     font-weight: 300;
     font-style: normal;
-    font-size: 40px;
+    font-size: 33px;
 }
 .con4 .card:nth-of-type(1) .flip-card-back {
     background-image: url(../../images/homecafe.jpg);
