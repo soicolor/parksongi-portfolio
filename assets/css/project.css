@@ -13,7 +13,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-
+    background-color: #e7d7d7;
     /* background-image: url(../../images/project_bg.png); */
     background-size: cover;
 
@@ -73,27 +73,44 @@
 .inner .right img {
     width: 830px;
     height: 500px;
+    border-radius: 10px;
+    border: 0.5px solid #dcdcdc;
 }
 .inner .right span {
     display: flex;
-    gap: 90px;
+    gap: 50px;
     margin-top: 50px;
+    margin-left: 300px;
 }
 .inner .right span a {
-    width: 370px;
-    height: 60px;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-    background-color: #d4da94;
-    font-size: 20px;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    line-height: 60px;
-    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateX(290px);
+
+    width: 100px;
+    height: 80px;
+    /* background-color: #d4da94; */
+    background-image: url(../../images/flowerbtn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .inner .right span a:hover {
-    background-color: #b05276;
-    font-weight: 500;
+    /* background-color: #b05276; */
     cursor: pointer;
+    transform: translateX(290px) scale(1.2) rotate(45deg);
+}
+
+.inner .right ul {
+    display: flex;
+    gap: 100px;
+    transform: translateX(605px);
+    margin-top: 15px;
+}
+.inner .right ul li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
 }
